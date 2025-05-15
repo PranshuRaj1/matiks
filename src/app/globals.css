@@ -3,6 +3,20 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --c-black12: #000000;
+  --c-white0: #ffffff;
+  --c-blue4Dark: #3b82f6;
+  --c-blue4Light: #93c5fd;
+}
+/* Dark mode */
+.dark {
+  --color: var(--c-black12);
+  --background: var(--c-black1);
+  --accentBackground: var(--c-blue4Dark);
+  --accentColor: var(--c-blue4Light);
+  --shadowColor: rgba(0, 0, 0, 0.3);
+  --borderColor: var(--c-black4);
+  --placeholderColor: var(--c-black9);
 }
 
 @theme inline {
