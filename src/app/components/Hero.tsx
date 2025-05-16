@@ -29,13 +29,13 @@ export default function Hero() {
         <div className="order-1 md:order-2 relative">
           <div className="bg-neutral-800 rounded-lg p-8 relative overflow-hidden">
             <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-br from-neutral-800 to-neutral-900 opacity-70 z-0" />
-            <div className="relative z-10">
+            <div className="relative aspect-[4/3] w-full">
               <Image
                 src="/leadership.png"
                 alt="Matiks Platform"
-                width={600}
-                height={400}
-                className="rounded-lg shadow-lg mb-6 w-full"
+                fill
+                className="rounded-lg shadow-lg object-contain"
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 600px"
               />
             </div>
           </div>
