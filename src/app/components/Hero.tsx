@@ -28,7 +28,6 @@ export default function Hero() {
 
         <div className="order-1 md:order-2 relative">
           <div className="bg-neutral-800 rounded-lg p-8 relative overflow-hidden">
-            <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-br from-neutral-800 to-neutral-900 opacity-70 z-0" />
             <div className="relative aspect-[4/3] w-full">
               <Image
                 src="/leadership.png"
@@ -37,6 +36,15 @@ export default function Hero() {
                 className="rounded-lg shadow-lg object-contain"
                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 600px"
               />
+            </div>
+            <div className="text-center">
+              <h3 className="text-[#a9f99e] font-bold text-lg mb-2">
+                MATH &amp; PUZZLES. BUT WITH DUELS AND A LEADERBOARD
+              </h3>
+              <p className="text-[#bababa]">
+                Challenge players worldwide in fast-paced math duels and puzzle
+                battles!
+              </p>
             </div>
           </div>
         </div>
