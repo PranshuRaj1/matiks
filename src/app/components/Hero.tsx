@@ -48,8 +48,6 @@ export default function Hero() {
             </div>
           </div>
         </div>
-
-        {/* QR CODE */}
       </div>
     </div>
   );
