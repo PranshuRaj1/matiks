@@ -5,7 +5,9 @@ export default function Hero() {
     <div className="container mx-auto px-4 py-12 md:py-20">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
         <div className="order-2 md:order-1">
-          <div className="text-sm uppercase tracking-wider mb-2">MATIKS</div>
+          <div className=" uppercase tracking-wider mb-2 md:text-6xl text-4xl font-bold text-[#a9f99e]">
+            MATIKS:{" "}
+          </div>
           <h1 className="text-4xl md:text-6xl font-bold mb-4">
             MAKING MATH <span className="text-[#a9f99e]">A SPORT</span>
           </h1>
