@@ -12,8 +12,8 @@ const Footer = () => {
           {/* Company Info */}
           <div>
             <div className="flex items-center mb-4">
-              <img
-                src="https://www.matiks.in/assets/assets/images/LinearGradientIcons/matiksBolt.042f60d33d693c06c19c0eecdfca8ef1.png"
+              <Image
+                src="/main.png"
                 alt="Matiks Logo"
                 width={32}
                 height={32}
@@ -141,7 +141,13 @@ const Footer = () => {
 export default Footer;
 
 const AppQRPlaceholder = () => (
-  <img src="/qr.svg" alt="Matiks QR Code" className="w-full h-full" />
+  <Image
+    src="/qr.svg"
+    alt="Matiks Logo"
+    width={500}
+    height={500}
+    className="mr-2"
+  />
 );
 
 const facebookIcon = () => (

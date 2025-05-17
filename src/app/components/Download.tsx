@@ -136,7 +136,14 @@ export default function Download() {
                 </p>
               </div>
               <div className="bg-white p-4 rounded-lg mb-6 flex justify-center">
-                <img src="/qr.svg" alt="Matiks QR Code" className="w-48 h-48" />
+                <div className="relative w-48 h-48">
+                  <Image
+                    src="/qr.svg"
+                    alt="Matiks QR Code"
+                    fill
+                    className="object-contain rounded-lg"
+                  />
+                </div>
               </div>
             </div>
           </div>

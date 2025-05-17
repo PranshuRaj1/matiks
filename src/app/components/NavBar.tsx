@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 import { useState } from "react";
 
 export default function NavBar() {
@@ -11,10 +12,12 @@ export default function NavBar() {
           {/* LOGO */}
           <div className="flex items-center">
             <a href="#" className="flex items-center">
-              <img
-                className="h-8 w-auto"
-                src="https://www.matiks.in/assets/assets/images/LinearGradientIcons/matiksBolt.042f60d33d693c06c19c0eecdfca8ef1.png"
+              <Image
+                src="/main.png"
                 alt="Matiks Logo"
+                width={32}
+                height={32}
+                className="mr-2"
               />
             </a>
           </div>
