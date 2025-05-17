@@ -15,10 +15,9 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Matiks",
   description: "The math rush",
-
   icons: {
-    icon: "/main.png", // your PNG in public/
-    shortcut: "/favicon.png", // fallback
+    icon: "/main.ico",
+    shortcut: "/main.ico",
   },
 };
 
