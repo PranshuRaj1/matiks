@@ -6,7 +6,7 @@ export default function NavBar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <div className="bg-neutral-900 text-white">
+    <div className="bg-neutral-900 text-white ">
       <div className="container mx-auto px-4 py-4">
         <div className="flex justify-between items-center">
           {/* LOGO */}
@@ -15,8 +15,8 @@ export default function NavBar() {
               <Image
                 src="/main.png"
                 alt="Matiks Logo"
-                width={32}
-                height={32}
+                width={20}
+                height={20}
                 className="mr-2"
               />
             </a>
@@ -26,13 +26,13 @@ export default function NavBar() {
           <div className="hidden md:flex space-x-6">
             <a
               href="/blogs"
-              className="text-[#bababa] hover:text-[#a9f99e] transition-colors duration-300"
+              className="text-[#bababa] hover:text-[#a9f99e] transition-colors duration-300 text-sm"
             >
               Blogs
             </a>
             <a
               href="/privacy-policy"
-              className="text-[#bababa] hover:text-[#a9f99e] transition-colors duration-300"
+              className="text-[#bababa] hover:text-[#a9f99e] transition-colors duration-300 text-sm"
             >
               Privacy Policy
             </a>
