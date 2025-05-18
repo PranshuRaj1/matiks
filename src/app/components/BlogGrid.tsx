@@ -7,7 +7,7 @@ interface BlogGridProps {
 
 export default function BlogGrid({ posts }: BlogGridProps) {
   return (
-    <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 px-10">
+    <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 px-20 ">
       {posts.map((post) => (
         <BlogCard key={post.slug} post={post} />
       ))}

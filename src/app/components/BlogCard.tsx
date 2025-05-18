@@ -8,18 +8,17 @@ interface BlogCardProps {
 
 export default function BlogCard({ post }: BlogCardProps) {
   return (
-    <article className="group rounded-lg border border-border bg-card overflow-hidden transition-all hover:shadow-md">
+    <article className=" group rounded-lg border border-border bg-card overflow-hidden transition-all hover:shadow-md w-full">
       <Link href={post.slug} className="block">
         <div className="aspect-[16/9] overflow-hidden">
           <Image
             src={post.image || "/placeholder.svg"}
             alt={post.title}
-            width={304}
+            width={320}
             height={180}
             className="w-full h-full object-cover transition-transform group-hover:scale-105"
           />
         </div>
-
         <div className="p-4 space-y-2">
           <div className="flex items-center gap-2 text-xs text-muted-foreground">
             <span>{post.date}</span>

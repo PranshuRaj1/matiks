@@ -9,9 +9,13 @@ export default function Blog() {
   const regularPosts = blogPosts.slice(1);
 
   return (
-    <main className="container py-8 space-y-12">
-      <HeroSection post={featuredPost} />
-      <BlogGrid posts={regularPosts} />
-    </main>
+    <>
+      <main className="container px-10 py-8 space-y-10">
+        <HeroSection post={featuredPost} />
+      </main>
+      <div className="w-full h-auto">
+        <BlogGrid posts={regularPosts} />
+      </div>
+    </>
   );
 }
