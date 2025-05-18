@@ -1,6 +1,6 @@
 export default function Features() {
   return (
-    <div className="py-20 bg-neutral-900">
+    <div className="py-15 bg-neutral-900">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">

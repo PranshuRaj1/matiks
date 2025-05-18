@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Hero() {
   return (
     <div className="bg-neutral-950">
-      <div className="container mx-auto px-4 py-12 md:py-20">
+      <div className="container mx-auto px-4 py-15 md:py-10">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
           <div className="order-2 md:order-1">
             <div className=" uppercase tracking-wider mb-2 md:text-6xl text-4xl font-bold text-[#a9f99e]">
@@ -32,12 +32,12 @@ export default function Hero() {
 
           <div className="order-1 md:order-2 relative">
             <div className="bg-neutral-800 rounded-lg p-8 relative overflow-hidden">
-              <div className="relative aspect-[4/3] w-full">
+              <div className="relative aspect-[4/3] w-full ">
                 <Image
                   src="/leadership.png"
                   alt="Matiks Platform"
                   fill
-                  className="rounded-lg shadow-lg object-contain"
+                  className="rounded-lg shadow-lg object-contain "
                   sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 600px"
                 />
               </div>
