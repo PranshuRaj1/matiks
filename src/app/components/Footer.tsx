@@ -71,7 +71,11 @@ const Footer = () => {
             <p className="text-[#bababa] mb-4">
               Get the Matiks app on your device
             </p>
-            <div className="bg-neutral-800 p-4 rounded-lg mb-4 inline-block w-24 h-24">
+            <div
+              className="bg-neutral-800 p-4 rounded-lg mb-4 inline-block w-32 h-32 object-contain
+        transition-transform duration-300 ease-in-out
+        hover:scale-110"
+            >
               <AppQRPlaceholder />
             </div>
             <div className="flex flex-col space-y-2">
@@ -144,13 +148,18 @@ const Footer = () => {
 export default Footer;
 
 const AppQRPlaceholder = () => (
-  <Image
-    src="/qr.svg"
-    alt="Matiks Logo"
-    width={500}
-    height={500}
-    className="mr-2"
-  />
+  <div className="relative w-24 h-24 overflow-hidden">
+    <Image
+      src="/qr.svg"
+      alt="Matiks QR Code"
+      fill
+      className="
+        object-contain
+        transition-transform duration-300 ease-in-out
+        hover:scale-110
+      "
+    />
+  </div>
 );
 
 const facebookIcon = () => (

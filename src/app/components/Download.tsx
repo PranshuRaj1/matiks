@@ -135,13 +135,17 @@ export default function Download() {
                   Get the Matiks app directly on your device
                 </p>
               </div>
-              <div className="bg-white p-4 rounded-lg mb-6 flex justify-center">
+              <div
+                className="bg-white p-4 rounded-lg mb-6 flex justify-center object-contain
+        transition-transform duration-300 ease-in-out
+        hover:scale-110"
+              >
                 <div className="relative w-48 h-48">
                   <Image
                     src="/qr.svg"
                     alt="Matiks QR Code"
                     fill
-                    className="object-contain rounded-lg"
+                    className="object-contain rounded-lg "
                   />
                 </div>
               </div>
