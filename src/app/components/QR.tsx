@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Qr() {
   return (
-    <div className="absolute -bottom-10 right-0 bg-neutral-800 p-4 rounded-lg shadow-lg flex items-center gap-4 border border-neutral-700">
+    <div className="absolute -bottom-10 right-0 bg-neutral-800 p-4 rounded-lg shadow-lg font-montsemi flex items-center gap-4 border border-neutral-700">
       <div className="w-20 h-20">
         <Image
           src="/Qr.png"

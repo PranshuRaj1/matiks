@@ -8,7 +8,7 @@ export default function PrivacyPolicy() {
         <title>Privacy Policy | Matiks</title>
       </Head>
 
-      <main className="bg-neutral-900 text-white min-h-screen">
+      <main className="bg-neutral-900 text-white min-h-screen font-montsemi">
         <div className="container mx-auto px-4 py-16 lg:py-24">
           {/* Header */}
           <header className="text-center mb-12">

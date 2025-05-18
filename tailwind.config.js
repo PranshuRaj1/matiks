@@ -2,6 +2,9 @@ module.exports = {
   darkMode: "class",
   theme: {
     extend: {
+      fontFamily: {
+        montsemi: ["var(--font-montserrat-semi)"],
+      },
       colors: {
         black: {
           0: "var(--c-black0)",

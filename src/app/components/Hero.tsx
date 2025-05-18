@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Hero() {
   return (
-    <div className="bg-neutral-950">
+    <div className="bg-neutral-950 font-montsemi">
       <div className="container mx-auto px-4 py-15 md:py-10">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
           <div className="order-2 md:order-1">

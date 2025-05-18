@@ -1,7 +1,7 @@
 import Image from "next/image";
 export default function Download() {
   return (
-    <div className="py-15 bg-neutral-800">
+    <div className="py-15 bg-neutral-800 font-montsemi">
       <div className="container mx-auto px-4">
         {/* Section Header */}
         <div className="text-center mb-16">
