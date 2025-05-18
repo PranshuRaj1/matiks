@@ -48,7 +48,7 @@ const Footer = () => {
             <ul className="space-y-2">
               <li>
                 <Link
-                  href="#"
+                  href="/blogs"
                   className="text-[#bababa] hover:text-[#a9f99e] transition-colors duration-300"
                 >
                   Blogs

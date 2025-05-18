@@ -11,7 +11,7 @@ export default function NavBar() {
         <div className="flex justify-between items-center">
           {/* LOGO */}
           <div className="flex items-center">
-            <a href="#" className="flex items-center">
+            <a href="/" className="flex items-center">
               <Image
                 src="/main.png"
                 alt="Matiks Logo"
@@ -25,7 +25,7 @@ export default function NavBar() {
           {/* Desktop Navigation */}
           <div className="hidden md:flex space-x-6">
             <a
-              href="/"
+              href="/blogs"
               className="text-[#bababa] hover:text-[#a9f99e] transition-colors duration-300 text-sm"
             >
               Blogs
@@ -68,7 +68,7 @@ export default function NavBar() {
           <div className="md:hidden mt-4 pb-2">
             <div className="flex flex-col space-y-3">
               <a
-                href="#"
+                href="/blogs"
                 className="text-[#bababa] hover:text-[#a9f99e] transition-colors duration-300"
               >
                 Blogs
