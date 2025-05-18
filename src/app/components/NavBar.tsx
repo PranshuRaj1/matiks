@@ -25,7 +25,7 @@ export default function NavBar() {
           {/* Desktop Navigation */}
           <div className="hidden md:flex space-x-6">
             <a
-              href="/blogs"
+              href="/"
               className="text-[#bababa] hover:text-[#a9f99e] transition-colors duration-300 text-sm"
             >
               Blogs
