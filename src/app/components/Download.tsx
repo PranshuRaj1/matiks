@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 export default function Download() {
   return (
     <div className="py-15 bg-neutral-800 font-montsemi">
@@ -71,7 +72,7 @@ export default function Download() {
 
             {/* Download Buttons */}
             <div className="flex flex-col sm:flex-row gap-4">
-              <a href="#">
+              <Link href="#">
                 <button
                   type="button"
                   className="bg-[#a9f99e] text-neutral-900 cursor-pointer px-6 py-3 rounded-md font-bold hover:bg-opacity-90 transition-colors duration-300 flex items-center justify-center"
@@ -87,8 +88,8 @@ export default function Download() {
                   </svg>
                   Download for iOS
                 </button>
-              </a>
-              <a
+              </Link>
+              <Link
                 href="https://play.google.com/store/apps/details?id=com.matiks.app&hl=en_IN"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -118,7 +119,7 @@ export default function Download() {
                   </svg>
                   Download for Android
                 </button>
-              </a>
+              </Link>
             </div>
           </div>
 

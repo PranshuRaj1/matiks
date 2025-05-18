@@ -1,6 +1,7 @@
 "use client";
 import Image from "next/image";
 import { useState } from "react";
+import Link from "next/link";
 
 export default function NavBar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -11,7 +12,7 @@ export default function NavBar() {
         <div className="flex justify-between items-center">
           {/* LOGO */}
           <div className="flex items-center">
-            <a href="/" className="flex items-center">
+            <Link href="/" className="flex items-center">
               <Image
                 src="/main.png"
                 alt="Matiks Logo"
@@ -19,23 +20,23 @@ export default function NavBar() {
                 height={20}
                 className="mr-2"
               />
-            </a>
+            </Link>
           </div>
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex space-x-6">
-            <a
+            <Link
               href="/blogs"
               className="text-[#bababa] hover:text-[#a9f99e] transition-colors duration-300 text-sm"
             >
               Blogs
-            </a>
-            <a
+            </Link>
+            <Link
               href="/privacy-policy"
               className="text-[#bababa] hover:text-[#a9f99e] transition-colors duration-300 text-sm"
             >
               Privacy Policy
-            </a>
+            </Link>
           </div>
 
           {/* Mobile Menu Button */}
@@ -67,18 +68,18 @@ export default function NavBar() {
         {isMenuOpen && (
           <div className="md:hidden mt-4 pb-2">
             <div className="flex flex-col space-y-3">
-              <a
+              <Link
                 href="/blogs"
                 className="text-[#bababa] hover:text-[#a9f99e] transition-colors duration-300"
               >
                 Blogs
-              </a>
-              <a
+              </Link>
+              <Link
                 href="/privacy-policy"
                 className="text-[#bababa] hover:text-[#a9f99e] transition-colors duration-300"
               >
                 Privacy Policy
-              </a>
+              </Link>
             </div>
           </div>
         )}

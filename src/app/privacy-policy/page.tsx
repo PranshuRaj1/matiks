@@ -1,5 +1,6 @@
 import React from "react";
 import Head from "next/head";
+import Link from "next/link";
 
 export default function PrivacyPolicy() {
   return (
@@ -255,12 +256,12 @@ export default function PrivacyPolicy() {
             <h2 className="text-2xl font-bold mb-4">Contact Us</h2>
             <p className="text-[#bababa]">
               If you have any questions, email us at{" "}
-              <a
+              <Link
                 href="mailto:info@matiks.com"
                 className="text-[#a9f99e] hover:underline"
               >
                 info@matiks.com
-              </a>
+              </Link>
               .
             </p>
           </section>
