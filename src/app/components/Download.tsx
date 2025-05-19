@@ -75,7 +75,7 @@ export default function Download() {
               <Link href="#">
                 <button
                   type="button"
-                  className="bg-[#a9f99e] text-neutral-900 cursor-pointer px-6 py-3 rounded-md font-bold hover:bg-opacity-90 transition-colors duration-300 flex items-center justify-center"
+                  className="bg-[#a9f99e] text-neutral-900 cursor-pointer px-10 py-3 rounded-md font-bold hover:bg-opacity-90 transition-colors duration-300 flex items-center justify-center"
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
